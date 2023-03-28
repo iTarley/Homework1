@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin: 10px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+}
+
+.big-picture {
+    margin-top: 10px;
+    width: 1063px;
+    height: 600px;
+    left: 51px;
+    top: 294px;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/nextgenranger-wildtrak-front-3qtr-static-1637737816.jpg');
+    background-size: cover;
+}
+.footer {
+    font-size: 40px;
+    font-weight: 400;
+    color: #29F408;
+    font-family: "BPG Nino Mtavruli";
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+@font-face {
+    font-family: "BPG Nino Mtavruli"; src: url("font/bpg_nino_mtavruli_normal.otf");
+}
+.text-row {
+    margin-top: 20px;
+    font-family: "BPG Nino Mtavruli";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.text-row h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.text-row .large {
+    font-size: 36px;
+}
+
